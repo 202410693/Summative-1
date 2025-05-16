@@ -1,24 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Formative Assessment 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body bgcolor="#121212" align="center">
-
-    <font color="#F0F0F0" size="5">
-        <font face="Courier" color="#a569bd" size="4">
-            <h1>FA1</h1>
-        </font>
-        <br>
-
+<body>
+    <font></font>
+    <table border="1" align= "center" border = "1px" cellspacing="0">
+        <tr align="center" bgcolor = "#85c1e9">
+            <th  colspan = "6">INVENTORY SYSTEMS</th>
+        </tr>
+        <tr bgcolor = "lightgray">
+          <th>ID</th>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Supplier</th>
+          <th>Date</th>
+          <th>Image</th>
+        </tr>
+        <tr align="center">
+          <td>10001</td>
+          <td align="left">Boy Bawang Adobo(pc)</td>
+          <td>1000</td>
+          <td rowspan = "8" bgcolor = "#f7dc6f"><b>KSK</b></td>
+          <td rowspan = "2">5/14/2019</td>
+          <td rowspan = "8"><img src="Boy Bawang.webp" alt="Boy Bawang" width="150" height="150"></td>
+        </tr>
+        <tr align="center">
+            <td >10002</td>
+            <td align="left">Boy Bawang Adobo(pack)</td>
+            <td>200</td>
+        </tr>
+        <tr align="center" bgcolor = "lightgray">
+            <td>10003</td>
+            <td align="left">Boy Bawang Garlic(pc)</td>
+            <td>3000</td>
+            <td rowspan = "2">5/15/2019</td>
+        </tr>
+        <tr align="center" bgcolor = "lightgray">
+            <td>10001</td>
+            <td align="left">Boy Bawang Garlic(pack)</td>
+            <td style="color:red;">150</td>
+        </tr>
+        <tr align="center">
+            <td>10001</td>
+            <td align="left">Boy Bawang Spicy(pc)</td>
+            <td>4000</td>
+            <td rowspan = "2">5/16/2019</td>
+        </tr>
+        <tr align="center">
+            <td>10001</td>
+            <td align="left">Boy Bawang Spicy(pack)</td>
+            <td>240</td>
+        </tr>
+        <tr align="center" bgcolor = "lightgray">
+            <td>10001</td>
+            <td align="left">Boy Bawang BBQ(pc)</td>
+            <td>3000</td>
+            <td rowspan = "2">5/17/2019</td>
+        </tr>
+        <tr align="center" bgcolor = "lightgray">
+            <td>10001</td>
+            <td align="left">Boy Bawang BBQ(pack)</td>
+            <td>210</td>
+        </tr>
+      </table>
       
-        <img src="FA1 part 1.png" alt="FA1">
-        <br><br>
-    </font>
-
-    <a href="index.html"><font color="#ffa31a">HOME</font></a>
-
-</body>
+      <form align= "left">
+         
+        Your Name*<br>
+        <input type = "text" name = "Name" size = "40"><br><br>
+        Email*<br>
+        <input type = "text" name = "Email" size = "40"><br><br>
+        Contact No*<br>
+        <input type = "text" name = "Number"><br><br>
+        Message<br>
+        <textarea cols = "60" rows = "4" name = "Message"></textarea><br><br>
+        required field*<br><br>
+        <input type = "submit" value="Send" style = "background-color:gray" style = "color: white"><br>
+        </form>
+        <p align="center">
+            <a href="index.html"><strong>HOME</strong></a>
+        </p>
+        
+    </body>
 </html>
